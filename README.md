@@ -5,13 +5,14 @@ application https://h5.tu.qq.com/web/ai-2d/cartoon/index to convert
 images to anime style.
 
 ## Package name
-You can download the library via ```composer require oni4i/qq-world```
+You can download the library via `composer require oni4i/qq-world`
 
 ### How to work with this library:
 1. You need to provide your image string to ImageService::generateImageByBuffer method
 2. Then you will get a response with your generated image url OR error, if something goes wrong
 
-Also you can check example in example.php file
+Also you can check example in example.php file. 
+Just copy the file in your file and run via `php yourFilename.php`
 
 ### Contacts:
 if something goes wrong or you have questions just let me know.
