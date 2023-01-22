@@ -1,0 +1,21 @@
+{
+    "name": "oni4i/qq-world",
+    "description": "Tool for working with https://h5.tu.qq.com/web/ai-2d/cartoon/index api. Generate your images to anime style",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Nikita Shipilov",
+            "email": "nikita.shipilov.22@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Oni4i\\QQWorld\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "symfony/http-client": "^6.2",
+        "ramsey/uuid": "^4.7"
+    }
+}
